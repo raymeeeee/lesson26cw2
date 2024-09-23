@@ -10,6 +10,7 @@ public:
     MovieDVD(string name, string author, int year, float price, float duration, string genre);
 
     void setGenre(string genre);
+    float getPrice()const;
     string getGenre()const;
 
     void showMovieDVD()const;
