@@ -129,11 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="lesson26cw2.cpp" />
+    <ClCompile Include="MovieDVD.cpp" />
     <ClCompile Include="MusicCD.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Item.h" />
+    <ClInclude Include="MovieDVD.h" />
     <ClInclude Include="MusicCD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

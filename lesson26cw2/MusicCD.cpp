@@ -24,5 +24,5 @@ float MusicCD::getDuration() const
 void MusicCD::showMusicCD() const
 {
     showItem();
-    cout << "Duration:" << m_duration << endl;
+    cout << "Duration: " << m_duration << endl;
 }
